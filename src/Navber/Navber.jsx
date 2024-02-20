@@ -40,7 +40,7 @@ const Navber = () => {
                     user?.email ? <div className="flex justify-between items-center">
                         <p className="mr-5">{user.displayName}</p>
                         <img className="w-16 mr-5 rounded-full" alt="Tailwind CSS Navbar component" src={user.photoURL} />
-                        <button onClick={logOut}>Logout</button>
+                        <button className="btn btn-primary" onClick={logOut}>Logout</button>
                  </div>
                     
                         :
