@@ -14,7 +14,7 @@ const Login = () => {
     console.log(email, password);
 
     if (password.length < 6) {
-      toast.error('password should be al least 6 charecter')
+      return toast.error('password should be al least 6 charecter')
     }
     else if(!/^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$/.test(password)){
       toast.error('password should have special character')
