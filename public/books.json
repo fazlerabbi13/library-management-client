@@ -1,0 +1,254 @@
+[
+    {
+        "Image": "https://i.ibb.co/YQNtsYn/bill.jpg",
+        "BookName": "BILL GATES",
+        "AuthorName": "GEORGE ILIAN",
+        "Category": "Biography",
+        "Rating": 4.2
+    },
+    {
+        "Image": "https://i.ibb.co/h87BgVz/Einstein.jpg",
+        "BookName": "EINSTEIN",
+        "AuthorName": "WALTER ISAACSON",
+        "Category": "Biography",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/kDHvTSK/Elon.jpg",
+        "BookName": "ELON MUSK",
+        "AuthorName": "WALTER ISAACSON",
+        "Category": "Biography",
+        "Rating": 4.6
+    },
+    {
+        "Image": "https://i.ibb.co/L9Bcq0C/Nelson.jpg",
+        "BookName": "NELSON MENDELA",
+        "AuthorName": "Jenifer Boothroyd",
+        "Category": "Biography",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/kJpKDMY/Richard.jpg",
+        "BookName": "Richard Bansoon",
+        "AuthorName": "Richard Bansoon",
+        "Category": "Biography",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/JyFLx9W/Steve.jpg",
+        "BookName": "Steve Jobs",
+        "AuthorName": "Isaacson",
+        "Category": "Biography",
+        "Rating": 4.7
+    },
+    {
+        "Image": "https://i.ibb.co/SQpN7Qf/1673018140-9-Best-Business-Booksfor-Entrepreneursin2023-Startyour-Own-Business.png",
+        "BookName": "Star Your Own Business",
+        "AuthorName": "J.R.R. Tolkien",
+        "Category": "Business",
+        "Rating": 4.6
+    },
+    {
+        "Image": "https://i.ibb.co/myVbbqN/Best-Business-Books-Entrepreneur-Mind-Kevin-Johnson.jpg",
+        "BookName": "The Enterprener Mind",
+        "AuthorName": "Suzanne Collins",
+        "Category": "Business",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/P4BJXLd/deep-work-book.jpg",
+        "BookName": "Deep Work",
+        "AuthorName": "Cal Newport",
+        "Category": "Business",
+        "Rating": 4.1
+    },
+    {
+        "Image": "https://i.ibb.co/KmXwVSG/download-1.jpg",
+        "BookName": "How To Start Business",
+        "AuthorName": "ALEX GENADINK",
+        "Category": "Business",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/YTnY05S/images.jpg",
+        "BookName": "RICHDAD POORDAD",
+        "AuthorName": "Robert Kiyosaki",
+        "Category": "Business",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/4p9MPS4/download.jpg",
+        "BookName": "LOCAL SMALL BUSINESS MARKETING",
+        "AuthorName": "ALEX GENADINK",
+        "Category": "Business",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/xjJvJ4K/31u-Uib0-R6-OL-AC-UF1000-1000-QL80.jpg",
+        "BookName": "OBJECT COMPUTER SCIENCE & INFORMATION TECHNOLOGY",
+        "AuthorName": "Dan Brown",
+        "Category": "Computer & tech",
+        "Rating": 4.2
+    },
+    {
+        "Image": "https://i.ibb.co/3h99vCs/64b52b27334cc767b700542d-c-c-5-books-in-1-the-1-coding.jpg",
+        "BookName": "C# & C++",
+        "AuthorName": "Stieg Larsson",
+        "Category": "Computer & tech",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/smkMMZX/front-cover-img-SB20360.jpg",
+        "BookName": "MERN Stack",
+        "AuthorName": "Kathryn Stockett",
+        "Category": "Computer & tech",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/Kr8ds3v/V2Gu8Qr.jpg",
+        "BookName": "UNDERSTANDIN INFORMATION TECHNOLOGY",
+        "AuthorName": "Gillian Flynn",
+        "Category": "Computer & tech",
+        "Rating": 4.6
+    },
+    {
+        "Image": "https://i.ibb.co/tqQcM1S/Ft1.jpg",
+        "BookName": "Future Tech",
+        "AuthorName": "Khaled Hosseini",
+        "Category": "Computer & tech",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/59SRqhH/71us-FFrk7e-L-AC-UF1000-1000-QL80.jpg",
+        "BookName": "INTRODUCTION TO COMPUTER and INFORMATION TECHNOLOGY",
+        "AuthorName": "Cormac McCarthy",
+        "Category": "Computer & tech",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/tsjRL45/Prehistoric-India-Its-Place-in-SDL698104804-1-ec209.jpg",
+        "BookName": "Prehistoric India",
+        "AuthorName": "Panchanam Mitra",
+        "Category": "History",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/SKLGq9t/images-1.jpg",
+        "BookName": "Germany",
+        "AuthorName": "Markus Zusak",
+        "Category": "History",
+        "Rating": 4.6
+    },
+    {
+        "Image": "https://i.ibb.co/TcpyMgT/images.jpg",
+        "BookName": "THE FRIST WORLD WAR",
+        "AuthorName": "MARTIN GILBERT",
+        "Category": "History",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/P6H61jp/amazon-image-ee2efb769295ba61d6098d19c697882c8d854f4c.webp",
+        "BookName": "African Europeans",
+        "AuthorName": "OLIVETTY OTELE",
+        "Category": "History",
+        "Rating": 4.2
+    },
+    {
+        "Image": "https://i.ibb.co/92gPGNM/Discoveryof-India.webp",
+        "BookName": "Jawaharldi Neheru",
+        "AuthorName": "George R.R. Martin",
+        "Category": "History",
+        "Rating": 4.8
+    },
+    {
+        "Image": "https://i.ibb.co/bR0xgd1/history.jpg",
+        "BookName": "World History",
+        "AuthorName": "Stephen King",
+        "Category": "History",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/k6X79QW/7-habits-of-highly-effective-people.jpg",
+        "BookName": "7 HABITS OF HIGHLY EFFECTIVE PEOPLE",
+        "AuthorName": "Stephen R. Covey",
+        "Category": "Motivational",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/zsWpry7/41-LCrq-CPPNL.jpg",
+        "BookName": "THE POWER OF THE WILL or Success",
+        "AuthorName": "Henry Risborough Sharman",
+        "Category": "Motivational",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/tbn87g9/71-ZA-v-Kn-FRL-AC-UF1000-1000-QL80.jpg",
+        "BookName": "THINK AND GROW",
+        "AuthorName": "NEPOLEON HILL",
+        "Category": "Motivational",
+        "Rating": 4.7
+    },
+    {
+        "Image": "https://i.ibb.co/wLBhPwL/img-5082.webp",
+        "BookName": "START WITH WHY",
+        "AuthorName": "SIMON SINEK",
+        "Category": "Motivational",
+        "Rating": 4.4
+    },
+    {
+        "Image": "https://i.ibb.co/MBMt47d/img1.png",
+        "BookName": "ZERO to ONE",
+        "AuthorName": "Piter Thiel",
+        "Category": "Motivational",
+        "Rating": 4.1
+    },
+    {
+        "Image": "https://i.ibb.co/j5z3LCQ/motivational.webp",
+        "BookName": "THE ALCHEMIST",
+        "AuthorName": "Panlo coelho",
+        "Category": "Motivational",
+        "Rating": 4.6
+    },
+    {
+        "Image": "https://i.ibb.co/2t0WnZ6/51gljgvc1il-custom-8e0aac25a70fbb531e3ed4e7467bb4a94d678dd2-s800-c85.jpg",
+        "BookName": "Children Of Time",
+        "AuthorName": "Adrian Tchalkovsky",
+        "Category": "Science-Fiction",
+        "Rating": 4.7
+    },
+    {
+        "Image": "https://i.ibb.co/qyvrcDf/9780593183632.jpg",
+        "BookName": "THE CRITICAL MASS",
+        "AuthorName": "DANIEL SUAREZ",
+        "Category": "Science-Fiction",
+        "Rating": 4.5
+    },
+    {
+        "Image": "https://i.ibb.co/q5bT35S/download-1.jpg",
+        "BookName": "THE LAST WATCH",
+        "AuthorName": "J. S. DEWES",
+        "Category": "Science-Fiction",
+        "Rating": 4.8
+    },
+    {
+        "Image": "https://i.ibb.co/q5bT35S/download-1.jpg",
+        "BookName": "FRACTAL NOISE",
+        "AuthorName": "Christopher Paolini",
+        "Category": "Science-Fiction",
+        "Rating": 4.3
+    },
+    {
+        "Image": "https://i.ibb.co/fkXVmFP/download.jpg",
+        "BookName": "DEAD SILENCE",
+        "AuthorName": "S. A. BARNES",
+        "Category": "Science-Fiction",
+        "Rating": 4.7
+    },
+    {
+        "Image": "https://i.ibb.co/drS2hbn/download-2.jpg",
+        "BookName": "WE DREAM OF SPACE",
+        "AuthorName": "ERIN ENTRADA KELLY",
+        "Category": "Science-Fiction",
+        "Rating": 4.4
+    }
+]

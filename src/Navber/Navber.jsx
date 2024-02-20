@@ -1,18 +1,21 @@
 import { Link } from "react-router-dom";
 import logo from '../assets/logo.png'
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
 const Navber = () => {
-    const navItems =<>
-    
-    <li><Link to="/">Home</Link> </li>
-    <li><Link to="/addbooks"> Add Book</Link> </li>
-    <li><Link to="/allbooks">All Books</Link> </li>
-    <li><Link to="/borrowedbooks">Borrowed Books</Link> </li>
-    <li><Link to="/signin">Sign in</Link> </li>
-    <li><Link to="/signup">Sign up</Link> </li>
-    
+    const { user, logOut } = useContext(AuthContext);
+
+    const navItems = <>
+
+        <li><Link to="/">Home</Link> </li>
+        <li><Link to="/addbooks"> Add Book</Link> </li>
+        <li><Link to="/allbooks">All Books</Link> </li>
+        <li><Link to="/borrowedbooks">Borrowed Books</Link> </li>
+        <li><Link to="/signup">Sign up</Link> </li>
+
     </>
-        
-    
+
+
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -25,15 +28,27 @@ const Navber = () => {
                     </ul>
                 </div>
                 <img className="w-24 h-22 ml-5" src={logo} alt="" />
-                 <a className="btn btn-ghost text-xl">BookHub</a>
+                <a className="btn btn-ghost text-xl">BookHub</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                   {navItems}
+                    {navItems}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                {
+                    user?.email ? <div className="flex justify-between items-center">
+                        <p className="mr-5">{user.displayName}</p>
+                        <img className="w-16 mr-5 rounded-full" alt="Tailwind CSS Navbar component" src={user.photoURL} />
+                        <button onClick={logOut}>Logout</button>
+                 </div>
+                    
+                        :
+                        <Link to='/signin'>
+                            <button className="btn btn-primary">Login</button>
+
+                        </Link>
+                }
             </div>
         </div>
     );
