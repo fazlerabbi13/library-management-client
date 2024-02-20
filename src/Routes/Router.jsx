@@ -8,6 +8,7 @@ import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import Home from "../Pages/Home/Home/Home";
 import PrivetRoute from "../Provider/PrivetRoute";
+import UpdateProduct from "../components/UpdateBook";
 
 const Router = createBrowserRouter([
     {
@@ -30,6 +31,11 @@ const Router = createBrowserRouter([
             {
                 path: '/borrowedbooks',
                 element: <PrivetRoute><BorrowedBooks></BorrowedBooks></PrivetRoute>
+            },
+            {
+                path:'/updatebook/:id',
+                element:<UpdateProduct></UpdateProduct>,
+                loader: () => fetch(`http://localhost:5000/addedbooks`)
             },
             {
                 path: '/signin',

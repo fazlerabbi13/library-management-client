@@ -1,254 +1,290 @@
 [
     {
-        "Image": "https://i.ibb.co/YQNtsYn/bill.jpg",
-        "BookName": "BILL GATES",
-        "AuthorName": "GEORGE ILIAN",
-        "Category": "Biography",
-        "Rating": 4.2
+        "image": "https://i.ibb.co/YQNtsYn/bill.jpg",
+        "bookName": "BILL GATES",
+        "authorName": "GEORGE ILIAN",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.2
     },
     {
-        "Image": "https://i.ibb.co/h87BgVz/Einstein.jpg",
-        "BookName": "EINSTEIN",
-        "AuthorName": "WALTER ISAACSON",
-        "Category": "Biography",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/h87BgVz/Einstein.jpg",
+        "bookName": "EINSTEIN",
+        "authorName": "WALTER ISAACSON",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/kDHvTSK/Elon.jpg",
-        "BookName": "ELON MUSK",
-        "AuthorName": "WALTER ISAACSON",
-        "Category": "Biography",
-        "Rating": 4.6
+        "image": "https://i.ibb.co/kDHvTSK/Elon.jpg",
+        "bookName": "ELON MUSK",
+        "authorName": "WALTER ISAACSON",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.6
     },
     {
-        "Image": "https://i.ibb.co/L9Bcq0C/Nelson.jpg",
-        "BookName": "NELSON MENDELA",
-        "AuthorName": "Jenifer Boothroyd",
-        "Category": "Biography",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/L9Bcq0C/Nelson.jpg",
+        "bookName": "NELSON MENDELA",
+        "authorName": "Jenifer Boothroyd",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/kJpKDMY/Richard.jpg",
-        "BookName": "Richard Bansoon",
-        "AuthorName": "Richard Bansoon",
-        "Category": "Biography",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/kJpKDMY/Richard.jpg",
+        "bookName": "Richard Bansoon",
+        "authorName": "Richard Bansoon",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/JyFLx9W/Steve.jpg",
-        "BookName": "Steve Jobs",
-        "AuthorName": "Isaacson",
-        "Category": "Biography",
-        "Rating": 4.7
+        "image": "https://i.ibb.co/JyFLx9W/Steve.jpg",
+        "bookName": "Steve Jobs",
+        "authorName": "Isaacson",
+        "category": "Biography",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.7
     },
     {
-        "Image": "https://i.ibb.co/SQpN7Qf/1673018140-9-Best-Business-Booksfor-Entrepreneursin2023-Startyour-Own-Business.png",
-        "BookName": "Star Your Own Business",
-        "AuthorName": "J.R.R. Tolkien",
-        "Category": "Business",
-        "Rating": 4.6
+        "image": "https://i.ibb.co/SQpN7Qf/1673018140-9-Best-Business-Booksfor-Entrepreneursin2023-Startyour-Own-Business.png",
+        "bookName": "Star Your Own Business",
+        "authorName": "J.R.R. Tolkien",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.6
     },
     {
-        "Image": "https://i.ibb.co/myVbbqN/Best-Business-Books-Entrepreneur-Mind-Kevin-Johnson.jpg",
-        "BookName": "The Enterprener Mind",
-        "AuthorName": "Suzanne Collins",
-        "Category": "Business",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/myVbbqN/Best-Business-Books-Entrepreneur-Mind-Kevin-Johnson.jpg",
+        "bookName": "The Enterprener Mind",
+        "authorName": "Suzanne Collins",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/P4BJXLd/deep-work-book.jpg",
-        "BookName": "Deep Work",
-        "AuthorName": "Cal Newport",
-        "Category": "Business",
-        "Rating": 4.1
+        "image": "https://i.ibb.co/P4BJXLd/deep-work-book.jpg",
+        "bookName": "Deep Work",
+        "authorName": "Cal Newport",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.1
     },
     {
-        "Image": "https://i.ibb.co/KmXwVSG/download-1.jpg",
-        "BookName": "How To Start Business",
-        "AuthorName": "ALEX GENADINK",
-        "Category": "Business",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/KmXwVSG/download-1.jpg",
+        "bookName": "How To Start Business",
+        "authorName": "ALEX GENADINK",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/YTnY05S/images.jpg",
-        "BookName": "RICHDAD POORDAD",
-        "AuthorName": "Robert Kiyosaki",
-        "Category": "Business",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/YTnY05S/images.jpg",
+        "bookName": "RICHDAD POORDAD",
+        "authorName": "Robert Kiyosaki",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/4p9MPS4/download.jpg",
-        "BookName": "LOCAL SMALL BUSINESS MARKETING",
-        "AuthorName": "ALEX GENADINK",
-        "Category": "Business",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/4p9MPS4/download.jpg",
+        "bookName": "LOCAL SMALL BUSINESS MARKETING",
+        "authorName": "ALEX GENADINK",
+        "category": "Business",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/xjJvJ4K/31u-Uib0-R6-OL-AC-UF1000-1000-QL80.jpg",
-        "BookName": "OBJECT COMPUTER SCIENCE & INFORMATION TECHNOLOGY",
-        "AuthorName": "Dan Brown",
-        "Category": "Computer & tech",
-        "Rating": 4.2
+        "image": "https://i.ibb.co/xjJvJ4K/31u-Uib0-R6-OL-AC-UF1000-1000-QL80.jpg",
+        "bookName": "OBJECT COMPUTER SCIENCE & INFORMATION TECHNOLOGY",
+        "authorName": "Dan Brown",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.2
     },
     {
-        "Image": "https://i.ibb.co/3h99vCs/64b52b27334cc767b700542d-c-c-5-books-in-1-the-1-coding.jpg",
-        "BookName": "C# & C++",
-        "AuthorName": "Stieg Larsson",
-        "Category": "Computer & tech",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/3h99vCs/64b52b27334cc767b700542d-c-c-5-books-in-1-the-1-coding.jpg",
+        "bookName": "C# & C++",
+        "authorName": "Stieg Larsson",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/smkMMZX/front-cover-img-SB20360.jpg",
-        "BookName": "MERN Stack",
-        "AuthorName": "Kathryn Stockett",
-        "Category": "Computer & tech",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/smkMMZX/front-cover-img-SB20360.jpg",
+        "bookName": "MERN Stack",
+        "authorName": "Kathryn Stockett",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/Kr8ds3v/V2Gu8Qr.jpg",
-        "BookName": "UNDERSTANDIN INFORMATION TECHNOLOGY",
-        "AuthorName": "Gillian Flynn",
-        "Category": "Computer & tech",
-        "Rating": 4.6
+        "image": "https://i.ibb.co/Kr8ds3v/V2Gu8Qr.jpg",
+        "bookName": "UNDERSTANDIN INFORMATION TECHNOLOGY",
+        "authorName": "Gillian Flynn",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.6
     },
     {
-        "Image": "https://i.ibb.co/tqQcM1S/Ft1.jpg",
-        "BookName": "Future Tech",
-        "AuthorName": "Khaled Hosseini",
-        "Category": "Computer & tech",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/tqQcM1S/Ft1.jpg",
+        "bookName": "Future Tech",
+        "authorName": "Khaled Hosseini",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/59SRqhH/71us-FFrk7e-L-AC-UF1000-1000-QL80.jpg",
-        "BookName": "INTRODUCTION TO COMPUTER and INFORMATION TECHNOLOGY",
-        "AuthorName": "Cormac McCarthy",
-        "Category": "Computer & tech",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/59SRqhH/71us-FFrk7e-L-AC-UF1000-1000-QL80.jpg",
+        "bookName": "INTRODUCTION TO COMPUTER and INFORMATION TECHNOLOGY",
+        "authorName": "Cormac McCarthy",
+        "category": "Computer & tech",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/tsjRL45/Prehistoric-India-Its-Place-in-SDL698104804-1-ec209.jpg",
-        "BookName": "Prehistoric India",
-        "AuthorName": "Panchanam Mitra",
-        "Category": "History",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/tsjRL45/Prehistoric-India-Its-Place-in-SDL698104804-1-ec209.jpg",
+        "bookName": "Prehistoric India",
+        "authorName": "Panchanam Mitra",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/SKLGq9t/images-1.jpg",
-        "BookName": "Germany",
-        "AuthorName": "Markus Zusak",
-        "Category": "History",
-        "Rating": 4.6
+        "image": "https://i.ibb.co/SKLGq9t/images-1.jpg",
+        "bookName": "Germany",
+        "authorName": "Markus Zusak",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.6
     },
     {
-        "Image": "https://i.ibb.co/TcpyMgT/images.jpg",
-        "BookName": "THE FRIST WORLD WAR",
-        "AuthorName": "MARTIN GILBERT",
-        "Category": "History",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/TcpyMgT/images.jpg",
+        "bookName": "THE FRIST WORLD WAR",
+        "authorName": "MARTIN GILBERT",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/P6H61jp/amazon-image-ee2efb769295ba61d6098d19c697882c8d854f4c.webp",
-        "BookName": "African Europeans",
-        "AuthorName": "OLIVETTY OTELE",
-        "Category": "History",
-        "Rating": 4.2
+        "image": "https://i.ibb.co/P6H61jp/amazon-image-ee2efb769295ba61d6098d19c697882c…",
+        "bookName": "African Europeans",
+        "authorName": "OLIVETTY OTELE",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.2
     },
     {
-        "Image": "https://i.ibb.co/92gPGNM/Discoveryof-India.webp",
-        "BookName": "Jawaharldi Neheru",
-        "AuthorName": "George R.R. Martin",
-        "Category": "History",
-        "Rating": 4.8
+        "image": "https://i.ibb.co/92gPGNM/Discoveryof-India.webp",
+        "bookName": "Jawaharldi Neheru",
+        "authorName": "George R.R. Martin",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.8
     },
     {
-        "Image": "https://i.ibb.co/bR0xgd1/history.jpg",
-        "BookName": "World History",
-        "AuthorName": "Stephen King",
-        "Category": "History",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/bR0xgd1/history.jpg",
+        "bookName": "World History",
+        "authorName": "Stephen King",
+        "category": "History",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/k6X79QW/7-habits-of-highly-effective-people.jpg",
-        "BookName": "7 HABITS OF HIGHLY EFFECTIVE PEOPLE",
-        "AuthorName": "Stephen R. Covey",
-        "Category": "Motivational",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/k6X79QW/7-habits-of-highly-effective-people.jpg",
+        "bookName": "7 HABITS OF HIGHLY EFFECTIVE PEOPLE",
+        "authorName": "Stephen R. Covey",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/zsWpry7/41-LCrq-CPPNL.jpg",
-        "BookName": "THE POWER OF THE WILL or Success",
-        "AuthorName": "Henry Risborough Sharman",
-        "Category": "Motivational",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/zsWpry7/41-LCrq-CPPNL.jpg",
+        "bookName": "THE POWER OF THE WILL or Success",
+        "authorName": "Henry Risborough Sharman",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/tbn87g9/71-ZA-v-Kn-FRL-AC-UF1000-1000-QL80.jpg",
-        "BookName": "THINK AND GROW",
-        "AuthorName": "NEPOLEON HILL",
-        "Category": "Motivational",
-        "Rating": 4.7
+        "image": "https://i.ibb.co/tbn87g9/71-ZA-v-Kn-FRL-AC-UF1000-1000-QL80.jpg",
+        "bookName": "THINK AND GROW",
+        "authorName": "NEPOLEON HILL",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.7
     },
     {
-        "Image": "https://i.ibb.co/wLBhPwL/img-5082.webp",
-        "BookName": "START WITH WHY",
-        "AuthorName": "SIMON SINEK",
-        "Category": "Motivational",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/wLBhPwL/img-5082.webp",
+        "bookName": "START WITH WHY",
+        "authorName": "SIMON SINEK",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     },
     {
-        "Image": "https://i.ibb.co/MBMt47d/img1.png",
-        "BookName": "ZERO to ONE",
-        "AuthorName": "Piter Thiel",
-        "Category": "Motivational",
-        "Rating": 4.1
+        "image": "https://i.ibb.co/MBMt47d/img1.png",
+        "bookName": "ZERO to ONE",
+        "authorName": "Piter Thiel",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.1
     },
     {
-        "Image": "https://i.ibb.co/j5z3LCQ/motivational.webp",
-        "BookName": "THE ALCHEMIST",
-        "AuthorName": "Panlo coelho",
-        "Category": "Motivational",
-        "Rating": 4.6
+        "image": "https://i.ibb.co/j5z3LCQ/motivational.webp",
+        "bookName": "THE ALCHEMIST",
+        "authorName": "Panlo coelho",
+        "category": "Motivational",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.6
     },
     {
-        "Image": "https://i.ibb.co/2t0WnZ6/51gljgvc1il-custom-8e0aac25a70fbb531e3ed4e7467bb4a94d678dd2-s800-c85.jpg",
-        "BookName": "Children Of Time",
-        "AuthorName": "Adrian Tchalkovsky",
-        "Category": "Science-Fiction",
-        "Rating": 4.7
+        "image": "https://i.ibb.co/2t0WnZ6/51gljgvc1il-custom-8e0aac25a70fbb531e3ed4e7467bb4a94d678dd2-s800-c85.jpg",
+        "bookName": "Children Of Time",
+        "authorName": "Adrian Tchalkovsky",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.7
     },
     {
-        "Image": "https://i.ibb.co/qyvrcDf/9780593183632.jpg",
-        "BookName": "THE CRITICAL MASS",
-        "AuthorName": "DANIEL SUAREZ",
-        "Category": "Science-Fiction",
-        "Rating": 4.5
+        "image": "https://i.ibb.co/qyvrcDf/9780593183632.jpg",
+        "bookName": "THE CRITICAL MASS",
+        "authorName": "DANIEL SUAREZ",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.5
     },
     {
-        "Image": "https://i.ibb.co/q5bT35S/download-1.jpg",
-        "BookName": "THE LAST WATCH",
-        "AuthorName": "J. S. DEWES",
-        "Category": "Science-Fiction",
-        "Rating": 4.8
+        "image": "https://i.ibb.co/q5bT35S/download-1.jpg",
+        "bookName": "THE LAST WATCH",
+        "authorName": "J. S. DEWES",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.8
     },
     {
-        "Image": "https://i.ibb.co/q5bT35S/download-1.jpg",
-        "BookName": "FRACTAL NOISE",
-        "AuthorName": "Christopher Paolini",
-        "Category": "Science-Fiction",
-        "Rating": 4.3
+        "image": "https://i.ibb.co/q5bT35S/download-1.jpg",
+        "bookName": "FRACTAL NOISE",
+        "authorName": "Christopher Paolini",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.3
     },
     {
-        "Image": "https://i.ibb.co/fkXVmFP/download.jpg",
-        "BookName": "DEAD SILENCE",
-        "AuthorName": "S. A. BARNES",
-        "Category": "Science-Fiction",
-        "Rating": 4.7
+        "image": "https://i.ibb.co/fkXVmFP/download.jpg",
+        "bookName": "DEAD SILENCE",
+        "authorName": "S. A. BARNES",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.7
     },
     {
-        "Image": "https://i.ibb.co/drS2hbn/download-2.jpg",
-        "BookName": "WE DREAM OF SPACE",
-        "AuthorName": "ERIN ENTRADA KELLY",
-        "Category": "Science-Fiction",
-        "Rating": 4.4
+        "image": "https://i.ibb.co/drS2hbn/download-2.jpg",
+        "bookName": "WE DREAM OF SPACE",
+        "authorName": "ERIN ENTRADA KELLY",
+        "category": "Science-Fiction",
+        "short" :"A book is a bound collection of pages, usually made of paper, parchment, or other materials, with text, images, or both, often enclosed within covers. Books can contain various forms of information, including stories, poetry, non-fiction, academic content, and more. They serve as a medium for conveying knowledge, ideas, stories, and entertainment. Books can come in different formats such as hardcover, paperback, electronic (e-books), and audiobooks. They play a crucial role in education, entertainment, and cultural preservation.",
+        "rating": 4.4
     }
 ]
