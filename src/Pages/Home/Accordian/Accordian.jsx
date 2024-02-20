@@ -2,7 +2,7 @@
 const Accordian = () => {
     return (
         <div>
-            <div className="text-center">
+            <div className="text-center mt-16">
                 <h1 className="text-6xl font-semibold">Frequently asked Questions</h1>
                 <p className="text-xl mt-5 mb-5">Choose your info you need from the tabs</p>
             </div>

@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="max-w-7xl mt-16 mx-auto">
-                <BookCategories></BookCategories>
+            <BookCategories></BookCategories>
+            <div className="max-w-7xl mx-auto">
                 <Accordian></Accordian>
             </div>
         </div>
