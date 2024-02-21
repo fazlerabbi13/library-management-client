@@ -38,17 +38,17 @@ const Router = createBrowserRouter([
             },
             {
                 path:'/updatebook/:id',
-                element:<UpdateProduct></UpdateProduct>,
+                element: <PrivetRoute><UpdateProduct></UpdateProduct></PrivetRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/addedbooks/update/${params.id}`)
             },
             {
                 path:'/relatedbooks/:category',
-                element:<CategoryBooks></CategoryBooks>,
+                element:<PrivetRoute><CategoryBooks></CategoryBooks></PrivetRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/addedbooks/category/${params.category}`)
             },
             {
                 path:'/bookdetails/:bookName',
-                element: <BookDetails></BookDetails>,
+                element: <PrivetRoute><BookDetails></BookDetails></PrivetRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/addedbooks/bookdetails/${params.bookName}`)
             },
             {
