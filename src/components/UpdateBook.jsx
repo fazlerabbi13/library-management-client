@@ -4,11 +4,8 @@ import Swal from 'sweetalert2'
 
 const UpdateProduct = () => {
    
-    const allbooks = useLoaderData()
-    const { id } = useParams()
-    const findSpecicOne = allbooks.find(oneProduct => oneProduct._id === id)
-    console.log(findSpecicOne)
-    const { _id,image, bookName,quantityBook,authorName,category,short,rating} = findSpecicOne;
+    const book = useLoaderData()
+    const { _id,image, bookName,quantityBook,authorName,category,short,rating} = book;
    
     const handleUpdateBook = event => {
         event.preventDefault();
@@ -24,7 +21,7 @@ const UpdateProduct = () => {
         const rating = form.rating.value;
 
         const newUpdateBooks = {
-           image, bookName, quantityBook, authorName, category, short, rating
+          _id, image, bookName, quantityBook, authorName, category, short, rating
         }
         console.log(newUpdateBooks);
 
@@ -65,13 +62,13 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text">Image URL</span>
                             </label>
-                            <input type="text" name="Image" placeholder="Image URL" className="input input-bordered" required />
+                            <input type="text" defaultValue={image} name="Image" placeholder="Image URL" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Book Name</span>
                             </label>
-                            <input type="text" name="name" placeholder="name" className="input input-bordered" required />
+                            <input type="text" defaultValue={name} name="name" placeholder="name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -83,7 +80,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text">Author Name</span>
                             </label>
-                            <input type="text" name="author" placeholder="author name" className="input input-bordered" required />
+                            <input type="text" name="author" defaultValue={authorName} placeholder="author name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
