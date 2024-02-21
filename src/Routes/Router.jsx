@@ -10,6 +10,9 @@ import Home from "../Pages/Home/Home/Home";
 import PrivetRoute from "../Provider/PrivetRoute";
 import UpdateProduct from "../components/UpdateBook";
 import CategoryBooks from "../components/CategoryBooks";
+import BookDetails from "../Pages/Home/BookCategory/BookDetails";
+
+
 
 const Router = createBrowserRouter([
     {
@@ -42,6 +45,11 @@ const Router = createBrowserRouter([
                 path:'/relatedbooks/:category',
                 element:<CategoryBooks></CategoryBooks>,
                 loader: ({params}) => fetch(`http://localhost:5000/addedbooks/category/${params.category}`)
+            },
+            {
+                path:'/bookdetails/:bookName',
+                element: <BookDetails></BookDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/addedbooks/bookdetails/${params.bookName}`)
             },
             {
                 path: '/signin',

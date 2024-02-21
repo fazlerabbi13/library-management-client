@@ -60,7 +60,7 @@ const AddBooks = () => {
                             <label className="label">
                                 <span className="label-text">Book Name</span>
                             </label>
-                            <input type="text" name="name" placeholder="name" className="input input-bordered" required />
+                            <input type="text" name="name" placeholder="book name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -78,7 +78,7 @@ const AddBooks = () => {
                             <label className="label">
                                 <span className="label-text">Category</span>
                             </label>
-                            <input type="text" name="category" placeholder="price" className="input input-bordered" required />
+                            <input type="text" name="category" placeholder="category" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">

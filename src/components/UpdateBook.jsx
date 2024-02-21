@@ -68,7 +68,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text">Book Name</span>
                             </label>
-                            <input type="text" defaultValue={name} name="name" placeholder="name" className="input input-bordered" required />
+                            <input type="text" defaultValue={bookName} name="name" placeholder="book name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -86,20 +86,20 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text">Category</span>
                             </label>
-                            <input type="text" name="category" placeholder="price" className="input input-bordered" required />
+                            <input type="text" defaultValue={category} name="category" placeholder="category" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Short Description</span>
                             </label>
-                            <input type="text" name="short" placeholder="short description" className="input input-bordered" required />
+                            <input type="text" defaultValue={short} name="short" placeholder="short description" className="input input-bordered" required />
 
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Rating</span>
                             </label>
-                            <input type="text" name="rating" placeholder="rating" className="input input-bordered" required />
+                            <input type="text" defaultValue={rating} name="rating" placeholder="rating" className="input input-bordered" required />
 
                         </div>
                         <div className="form-control mt-6">
