@@ -8,9 +8,9 @@ import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import Home from "../Pages/Home/Home/Home";
 import PrivetRoute from "../Provider/PrivetRoute";
-import UpdateProduct from "../components/UpdateBook";
 import CategoryBooks from "../components/CategoryBooks";
 import BookDetails from "../Pages/Home/BookCategory/BookDetails";
+import UpdateBook from "../components/UpdateBook";
 
 
 
@@ -30,7 +30,8 @@ const Router = createBrowserRouter([
             },
             {
                 path: '/allbooks',
-                element: <PrivetRoute><AllBooks></AllBooks></PrivetRoute>
+                element: <PrivetRoute><AllBooks></AllBooks></PrivetRoute>,
+                loader: () => fetch('http://localhost:5000/bookcount')
             },
             {
                 path: '/borrowedbooks',
@@ -38,7 +39,7 @@ const Router = createBrowserRouter([
             },
             {
                 path:'/updatebook/:id',
-                element: <PrivetRoute><UpdateProduct></UpdateProduct></PrivetRoute>,
+                element: <PrivetRoute><UpdateBook></UpdateBook></PrivetRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/addedbooks/update/${params.id}`)
             },
             {

@@ -24,7 +24,7 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 e.target.reset();
-                Navigate('/login');
+                Navigate('/signin');
             })
             .catch(error => {
                 console.log(error);
@@ -65,7 +65,7 @@ const Register = () => {
                             <button className="btn btn-primary">Register</button>
                         </div>
                     </form>
-                    <p className="mx-auto mb-4"> Do You have an account?Please <Link className="text-blue-600 font-bold" to="/login">Login</Link> </p>
+                    <p className="mx-auto mb-4"> Do You have an account?Please <Link className="text-blue-600 font-bold" to="/signin">Login</Link> </p>
 
                 </div>
             </div>

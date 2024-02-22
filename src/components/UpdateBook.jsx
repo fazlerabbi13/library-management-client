@@ -2,7 +2,7 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
-const UpdateProduct = () => {
+const UpdateBook = () => {
    
     const book = useLoaderData()
     const { _id,image, bookName,quantityBook,authorName,category,short,rating} = book;
@@ -112,4 +112,4 @@ const UpdateProduct = () => {
     );
 };
 
-export default UpdateProduct;
+export default UpdateBook;
