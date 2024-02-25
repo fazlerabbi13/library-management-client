@@ -8,6 +8,7 @@ const BookDetails = () => {
     
     const [userName, setUserName] = useState('');
     const [userEmail, setUserEmail] = useState('');
+    const [borrowedDate, setBorrorwedDate] = useState('');
     const [returnDate, setReturnDate] = useState('');
 
     const {user} = useContext(AuthContext)
@@ -22,7 +23,7 @@ const BookDetails = () => {
         
 
         const borrowedbooks = {
-            userName,userEmail,returnDate,authorName, bookName, short, rating, category
+            userName,userEmail, borrowedDate,returnDate,authorName, bookName, image, short, rating, category
         }
         console.log(borrowedbooks)
         fetch(`http://localhost:5000/borrowedbooks`, {
@@ -72,6 +73,12 @@ const BookDetails = () => {
                                                 <span className="label-text">Email</span>
                                             </label>
                                             <input type="email" value={user.email} onChange={(e) => setUserEmail(e.target.value)} name="email" placeholder="email" className="input input-bordered" required />
+                                        </div>
+                                        <div className="form-control">
+                                            <label className="label">
+                                                <span className="label-text">Borrowed Date</span>
+                                            </label>
+                                            <input type="date"  onChange={(e) => setBorrorwedDate(e.target.value)} name="borrowedDate" placeholder="select return date" className="input input-bordered" required />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">
