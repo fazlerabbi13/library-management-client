@@ -1,10 +1,51 @@
+import { useContext, useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 
 const BookDetails = () => {
+    
+    const [userName, setUserName] = useState('');
+    const [userEmail, setUserEmail] = useState('');
+    const [returnDate, setReturnDate] = useState('');
+
+    const {user} = useContext(AuthContext)
+    console.log(user)
+
     const bookDetails = useLoaderData();
     console.log(bookDetails);
-    const { image, short } = bookDetails;
+
+    const { image, short, authorName, bookName, rating, category } = bookDetails;
+
+    const handleBorrow = () => {
+        
+
+        const borrowedbooks = {
+            userName,userEmail,returnDate,authorName, bookName, short, rating, category
+        }
+        console.log(borrowedbooks)
+        fetch(`http://localhost:5000/borrowedbooks`, {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(borrowedbooks)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.insertedId) {
+                    Swal.fire({
+                        title: 'Success',
+                        text: 'Book borrowed successfully',
+                        icon: 'success',
+                        confirmButtonText: 'ok'
+                    })
+                }
+            })
+
+    }
     return (
         <div className="hero min-h-screen bg-base-200 my-10">
             <div className="hero-content flex-col lg:flex-row">
@@ -19,30 +60,30 @@ const BookDetails = () => {
                             <div className="modal-box">
                                 <h3 className="font-bold text-lg text-center mb-5">Borrow your book</h3>
                                 <div className="card shrink-0 w-full max-w-s ">
-                                    <form className="card-body">
+                                    <form  className="card-body">
                                         <div className="form-control">
                                             <label className="label">
                                                 <span className="label-text">Name</span>
                                             </label>
-                                            <input type="text" placeholder="name" className="input input-bordered" required />
+                                            <input type="text" value={user.displayName} onChange={(e) => setUserName(e.target.value)} name="name" placeholder="name" className="input input-bordered" required />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">
                                                 <span className="label-text">Email</span>
                                             </label>
-                                            <input type="email" placeholder="email" className="input input-bordered" required />
+                                            <input type="email" value={user.email} onChange={(e) => setUserEmail(e.target.value)} name="email" placeholder="email" className="input input-bordered" required />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">
                                                 <span className="label-text">Return Date</span>
                                             </label>
-                                            <input type="date" placeholder="select return date" className="input input-bordered" required />
+                                            <input type="date"  onChange={(e) => setReturnDate(e.target.value)} name="returnDate" placeholder="select return date" className="input input-bordered" required />
                                         </div>
-            
+
                                     </form>
                                     <form className="text-center" method="dialog">
                                         {/* if there is a button in form, it will close the modal */}
-                                        <button className="btn btn-primary">Submit</button>
+                                        <button onClick={handleBorrow} className="btn btn-primary">Submit</button>
                                     </form>
                                 </div>
                             </div>

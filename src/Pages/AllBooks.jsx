@@ -27,14 +27,14 @@ const AllBooks = () => {
 
     return (
         <div>
-            <div>
+            <div className="flex justify-center">
                 <label className="form-control w-full max-w-xs">
                     <div className="label">
                         <span className="label-text">Pick the best fantasy franchise</span>
                         <span className="label-text-alt">Alt label</span>
                     </div>
                     <select value={setSelectedCategory} onChange={handleCategoryChange} className="select select-bordered">
-                        <option className="text-2xl" disabled selected>select one</option>
+                        <option className="text-2xl" selected>select one</option>
                         <option value="Biographies">Biographies</option>
                         <option value="Motivational">Motivational</option>
                         <option value="Business">Business</option>
