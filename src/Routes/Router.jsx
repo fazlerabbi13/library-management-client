@@ -36,7 +36,7 @@ const Router = createBrowserRouter([
             {
                 path: '/borrowedbooks',
                 element: <PrivetRoute><BorrowedBooks></BorrowedBooks></PrivetRoute>,
-                loader: () => fetch('http://localhost:5000/borrowedbooks')
+                // loader: () => fetch('http://localhost:5000/borrowedbooks')
             },
             {
                 path:'/updatebook/:id',

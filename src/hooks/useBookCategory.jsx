@@ -6,7 +6,7 @@ const useBookCategory = () => {
     
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookcategory')
+        fetch('http://localhost:5000/bookcategory', {credentials:"include"})
             .then(res => res.json())
             .then(data => setCategories(data))
     }, [])

@@ -6,14 +6,14 @@ import { AuthContext } from "../../../Provider/AuthProvider";
 
 const BookDetails = () => {
     
-    const [userName, setUserName] = useState('');
-    const [userEmail, setUserEmail] = useState('');
+   
     const [borrowedDate, setBorrorwedDate] = useState('');
     const [returnDate, setReturnDate] = useState('');
 
     const {user} = useContext(AuthContext)
     console.log(user)
-
+    const userName =user?.displayName
+    const userEmail =user?.email
     const bookDetails = useLoaderData();
     console.log(bookDetails);
 
@@ -66,13 +66,13 @@ const BookDetails = () => {
                                             <label className="label">
                                                 <span className="label-text">Name</span>
                                             </label>
-                                            <input type="text" value={user.displayName} onChange={(e) => setUserName(e.target.value)} name="name" placeholder="name" className="input input-bordered" required />
+                                            <input type="text" defaultValue={userName}  name="name" placeholder="name" className="input input-bordered" disabled/>
                                         </div>
                                         <div className="form-control">
                                             <label className="label">
                                                 <span className="label-text">Email</span>
                                             </label>
-                                            <input type="email" value={user.email} onChange={(e) => setUserEmail(e.target.value)} name="email" placeholder="email" className="input input-bordered" required />
+                                            <input type="email" defaultValue={userEmail} name="email" placeholder="email" className="input input-bordered" disabled />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">

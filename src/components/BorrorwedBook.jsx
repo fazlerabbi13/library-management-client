@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 const BorrorwedBook = ({ borrowedBook }) => {
     const { _id, image, authorName, bookName, borrowedDate, returnDate, category, rating } = borrowedBook;
 
-    const [returnBooks, setReturnBooks] = useState();
+    const [returnBooks, setReturnBooks] = useState(null);
 
     const handleReturn = (id) => {
         // console.log(_id);
@@ -16,11 +16,11 @@ const BorrorwedBook = ({ borrowedBook }) => {
             showCancelButton: true,
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!"
+            confirmButtonText: "Yes, return it!"
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/borrowedbooks/${id}`, {
+                fetch(`http://localhost:5000/borrowedbooks/${id}`, {credentials:"include"}, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -28,8 +28,8 @@ const BorrorwedBook = ({ borrowedBook }) => {
                         console.log(data);
                         if (data.deletedCount > 0) {
                             Swal.fire({
-                                title: "Deleted!",
-                                text: "Your cart has been deleted.",
+                                title: "Return!",
+                                text: "Your borrowed book has been return.",
                                 icon: "success"
                             });
 
