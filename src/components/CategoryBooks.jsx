@@ -2,8 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import CategoryBook from "./CategoryBook";
 
 const CategoryBooks = () => {
-    const categoryBooks = useLoaderData()
-    console.log(categoryBooks)
+    const categoryBooks = useLoaderData();
+    console.log(categoryBooks);
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {

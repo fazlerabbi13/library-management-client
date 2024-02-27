@@ -2,10 +2,10 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 
 
-const BorrorwedBook = ({ borrowedBook }) => {
+const BorrorwedBook = ({ borrowedBook,borrowedBooks, setBorrowedBooks }) => {
     const { _id, image, authorName, bookName, borrowedDate, returnDate, category, rating } = borrowedBook;
 
-    const [returnBooks, setReturnBooks] = useState(null);
+
 
     const handleReturn = (id) => {
         // console.log(_id);
@@ -20,7 +20,7 @@ const BorrorwedBook = ({ borrowedBook }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/borrowedbooks/${id}`, {credentials:"include"}, {
+                fetch(`http://localhost:5000/borrowedbooks/${id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -33,8 +33,9 @@ const BorrorwedBook = ({ borrowedBook }) => {
                                 icon: "success"
                             });
 
-                            const remainingBooks = returnBooks.filter(returnBook => returnBook._id !== id)
-                            setReturnBooks(remainingBooks);
+                            const remainingBooks = borrowedBooks.filter(returnBook => returnBook._id !== id)
+                            
+                            setBorrowedBooks(remainingBooks);
 
                         }
 
@@ -48,7 +49,7 @@ const BorrorwedBook = ({ borrowedBook }) => {
     return (
         <div className="card w-80 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
-                <img src={image} alt="Shoes" className="rounded-xl" />
+                <img src={image} alt="Shoes" className="rounded-xl h-72 w-64" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{authorName}</h2>

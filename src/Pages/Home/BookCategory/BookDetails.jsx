@@ -66,13 +66,13 @@ const BookDetails = () => {
                                             <label className="label">
                                                 <span className="label-text">Name</span>
                                             </label>
-                                            <input type="text" defaultValue={userName}  name="name" placeholder="name" className="input input-bordered" disabled/>
+                                            <input type="text" defaultValue={userName}  name="name" placeholder="name" className="input input-bordered" />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">
                                                 <span className="label-text">Email</span>
                                             </label>
-                                            <input type="email" defaultValue={userEmail} name="email" placeholder="email" className="input input-bordered" disabled />
+                                            <input type="email" defaultValue={userEmail} name="email" placeholder="email" className="input input-bordered" />
                                         </div>
                                         <div className="form-control">
                                             <label className="label">

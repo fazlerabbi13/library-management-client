@@ -6,13 +6,14 @@ import { AuthContext } from "../Provider/AuthProvider";
 const BorrowedBooks = () => {
     const {user} = useContext(AuthContext);
     console.log(user)
-    const [ borrowedBooks, setBorrowedBooks] = useState();
+    const [ borrowedBooks, setBorrowedBooks] = useState([]);
+    console.log(borrowedBooks)
     
     useEffect(() =>{
         fetch( `http://localhost:5000/borrowedbooks?email=${user?.email}`, {credentials:"include"}) 
         .then(res =>res.json())
         .then(data => setBorrowedBooks(data))
-        .catch(error =>console.log(error))
+        // .catch(error =>console.log(error))
     },[user?.email])
     console.log(borrowedBooks)
     return (
@@ -22,6 +23,8 @@ const BorrowedBooks = () => {
                      <BorrorwedBook
                       key={borrowedBook._id}
                        borrowedBook={borrowedBook}
+                       borrowedBooks={borrowedBooks}
+                       setBorrowedBooks={setBorrowedBooks}
                        ></BorrorwedBook>)
             }
         </div>
