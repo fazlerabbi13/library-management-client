@@ -31,27 +31,27 @@ const Router = createBrowserRouter([
             {
                 path: '/allbooks',
                 element: <PrivetRoute><AllBooks></AllBooks></PrivetRoute>,
-                loader: () => fetch('http://localhost:5000/bookcount')
+                loader: () => fetch('https://library-management-server-eight.vercel.app/bookcount')
             },
             {
                 path: '/borrowedbooks',
                 element: <PrivetRoute><BorrowedBooks></BorrowedBooks></PrivetRoute>,
-                // loader: () => fetch('http://localhost:5000/borrowedbooks')
+                
             },
             {
                 path:'/updatebook/:id',
                 element: <PrivetRoute><UpdateBook></UpdateBook></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/addedbooks/update/${params.id}`)
+                loader: ({params}) => fetch(`https://library-management-server-eight.vercel.app/addedbooks/update/${params.id}`)
             },
             {
                 path:'/relatedbooks/:category',
                 element:<PrivetRoute><CategoryBooks></CategoryBooks></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/addedbooks/category/${params.category}`)
+                loader: ({params}) => fetch(`https://library-management-server-eight.vercel.app/addedbooks/category/${params.category}`)
             },
             {
                 path:'/bookdetails/:bookName',
                 element: <PrivetRoute><BookDetails></BookDetails></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/addedbooks/bookdetails/${params.bookName}`)
+                loader: ({params}) => fetch(`https://library-management-server-eight.vercel.app/addedbooks/bookdetails/${params.bookName}`)
             },
             {
                 path: '/signin',

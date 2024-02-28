@@ -7,7 +7,7 @@ const CategoryBooks = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {
-                categoryBooks.map(categoryBook => <CategoryBook key={categoryBook._id} categoryBook={categoryBook}></CategoryBook>)
+                categoryBooks?.map(categoryBook => <CategoryBook key={categoryBook._id} categoryBook={categoryBook}></CategoryBook>)
             }
         </div>
     );

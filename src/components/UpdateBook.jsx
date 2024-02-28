@@ -27,7 +27,7 @@ const UpdateBook = () => {
 
         // send data to server side
 
-        fetch(`http://localhost:5000/addedbooks/${_id}`, {
+        fetch(`https://library-management-server-eight.vercel.app/addedbooks/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

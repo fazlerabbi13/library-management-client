@@ -12,7 +12,7 @@ const AllBooks = () => {
     
     // all book loaded here
     useEffect(() => {
-        axios.get(`http://localhost:5000/addedbooks?category=${selectedCategory}`)
+        axios.get(`https://library-management-server-eight.vercel.app/addedbooks?category=${selectedCategory}`)
             .then(res => {
                 setAllBooks(res.data)
             })

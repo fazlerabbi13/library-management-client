@@ -20,7 +20,7 @@ const AddBooks = () => {
         console.log(newAddBooks);
 
         // send data to server side
-        fetch('http://localhost:5000/addbooks', {
+        fetch('https://library-management-server-eight.vercel.app/addbooks', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
